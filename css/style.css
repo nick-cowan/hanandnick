@@ -26,11 +26,12 @@ h1, h2, p {
         font-family: 'Roboto', sans-serif;
       }
 
+
 #title {
-  font-family: 'Roboto Slab',;
-  font-weight: bold;
+
+  font-weight: 800;
   font-size: 3em;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.1em;
   margin-bottom: 0.5em;
 }
 
@@ -38,9 +39,12 @@ h1, h2, p {
   font-size: 1.7em;
 }
 
+#dress {
+  height:350px;
+}
 
 #avatar {
- border-radius: 50%;
+ border-radius: 25px;
  border:2px solid #FFFFFF;
  /*box-shadow: 3px 8px 2px 1px rgba(0, 0, 0, 0.75);*/
  margin-bottom: 15px;
@@ -60,6 +64,13 @@ h1, h2, p {
   background-size: 100%;
 }
 
+small {
+  font-size: 60%;
+}
+
+.img-content {
+   border-radius: .25rem;
+}
 
 
 .container {
@@ -71,7 +82,7 @@ h1, h2, p {
   position: relative;
     /*padding-bottom: 56.25%;*/
     padding-top: 35px;
-    height: 300px;
+    height: 260px;
     overflow: hidden;
     margin-bottom: 15px;
 }
