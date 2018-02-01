@@ -1,0 +1,108 @@
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/*RESETS*/
+body {
+        background: url(../images/background.png);
+        background-size: 100%;
+      }
+
+
+h1, h2, p {
+        font-family: 'Roboto', sans-serif;
+      }
+
+#title {
+  font-family: 'Roboto Slab',;
+  font-weight: bold;
+  font-size: 3em;
+  letter-spacing: 0.25em;
+  margin-bottom: 0.5em;
+}
+
+.lead {
+  font-size: 1.7em;
+}
+
+
+#avatar {
+ border-radius: 50%;
+ border:2px solid #FFFFFF;
+ /*box-shadow: 3px 8px 2px 1px rgba(0, 0, 0, 0.75);*/
+ margin-bottom: 15px;
+}
+      /*.avatar{
+          border-radius: 50%;
+          background-size: 106px 106px;
+          display: block;
+          height: 106px;
+          width: 106px;
+          border: 4px solid #f6f6f6;
+          position: relative;
+      }*/
+
+.jumbotron {
+  background: url(../images/background.png);
+  background-size: 100%;
+}
+
+
+
+.container {
+  box-shadow: 0px 0px 40px 50px rgba(0, 0, 0, 0.35);
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.video-container {
+  position: relative;
+    /*padding-bottom: 56.25%;*/
+    padding-top: 35px;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+  color: white;
+}
+
+.lead {
+  color: white;
+}
+
+.card {
+  padding: 15px;
+  display: block;
+}
+
+.gif {
+padding-top: 0px;
+}
+
+.gif img {
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
