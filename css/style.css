@@ -87,6 +87,14 @@ small {
     margin-bottom: 15px;
 }
 
+.video-container-2 {
+  position: relative;
+    /*padding-bottom: 56.25%;*/
+    padding-top: 35px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
 .video-container iframe {
     position: absolute;
     top:0;
